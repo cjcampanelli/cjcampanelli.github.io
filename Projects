@@ -792,16 +792,16 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
     <ul class="list">
         
             <li class="item">
-                <a class="link" href="index.html">Home</a>
+                <a class="link" href="index">Home</a>
             </li>
             <li class="item">
-              <a class="link" href="cv.pdf">C.V.</a>
+              <a class="link" href="assets/files/cv.pdf">C.V.</a>
             </li>
             <li class="item">
-              <a class="link" href="Portfolio.html">Portfolio</a>
+              <a class="link" href="Portfolio">Portfolio</a>
             </li>
             <li class="item">
-                <a class="link" href="resume.pdf">Resume</a>
+                <a class="link" href="assets/files/resume.pdf">Resume</a>
             </li>
         
     </ul>

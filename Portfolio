@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -9,20 +9,20 @@
     <meta name=author content="Christopher Campanelli">
 
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Home | Christopher Campanelli</title>
+<title>Portfolio | Christopher Campanelli</title>
 <meta name="generator" content="Jekyll v3.9.5" />
-<meta property="og:title" content="Home" />
+<meta property="og:title" content="Portfolio" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content=":ramen: Minimalist Jekyll Template, dark and light themes" />
 <meta property="og:description" content=":ramen: Minimalist Jekyll Template, dark and light themes" />
-<link rel="canonical" href="Home" />
-<meta property="og:url" content="Home" />
+<link rel="canonical" href="Portfolio"/>
+<meta property="og:url" content="Portfolio" />
 <meta property="og:site_name" content="Christopher Campanelli" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Home" />
+<meta property="twitter:title" content="Portfolio" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":":ramen: Minimalist Jekyll Template, dark and light themes","headline":"Home","name":"Christopher Campanelli","url":"Home"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":":ramen: Minimalist Jekyll Template, dark and light themes","headline":"Projects","url":"Portfolio"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -740,7 +740,7 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
     <div class="wrapper-normal">
         
             
-                <div class="page home">
+                <div class="page projects">
             
         
 
@@ -750,7 +750,7 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
     <header class="header-home animated">
         
             <a class="link" href="about.html">
-                <img class="selfie" alt="Christopher Campanelli" src="me.jpg">
+                <img class="selfie" alt="Christopher Campanelli" src="http://localhost:4000/assets/images/me.jpg">
             </a>
         
 
@@ -759,7 +759,14 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 
         <!-- To add more icons, duplicate a section and find yout icon here -> https://fontawesome.com/v6.0/icons -->
 
-<div class="social-links">    
+<div class="social-links">
+    
+
+    
+
+    
+
+    
         <a class="link" data-title="linkedin.com/in/christopher-campanelli100" href="https://www.linkedin.com/in/christopher-campanelli100" target="_blank" rel="noopener" alt="anchor link for social media linkedin" aria-label="anchor link for social media linkedin">
             <i class="fa-brands fa-linkedin"></i>
         </a>
@@ -781,26 +788,61 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
     </header>
 
 
-<nav class="nav-home">
+<nav class="nav">
     <ul class="list">
-                <li class="item">
-                  <a class="link" href="cv.pdf">C.V.</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="Portfolio.html">Portfolio</a>
-                </li>
-                <li class="item">
-                  <a class="link" href="Projects.html">Projects</a>
-                </li>
-              <li class="item">
-                  <a class="link" href="resume.pdf">Resume</a>
-              </li>
+        
+            <li class="item">
+                <a class="link" href="index">Home</a>
+            </li>
+            <li class="item">
+              <a class="link" href="cv.pdf">C.V.</a>
+            </li>
+            <li class="item">
+                <a class="link" href="Projects">Projects</a>
+            </li>
+            <li class="item">
+                <a class="link" href="resume.pdf">Resume</a>
+            </li>
         
     </ul>
 </nav>
 
 
 
+<section class="list">
+  <h1 align ="center">Portfolio</h1>
+          <h4 align="center">Coursework that showcases Modeling & Simulation proficiency</span> </h4>
+          <div class="item ">
+            <h3 class="title">IDS 6267: Understanding Humans for Modeling & Simulation</h3>
+            <span class = "subtitle">Research paper on a human interaction model involving a neural implant</span>
+            </div>
+            <div class="item ">
+                <a class ="link" href = "him1.pdf">
+                    <img src = "him1.jpg" />
+                </a> 
+            </div>
+            <h3 class="title">IDS 6147: Perspectives of Modeling & Simulation</h3>
+            <span class = "subtitle">Research paper that proposes the creation of a database for existing astronaut training that provides statistics on efficacy</span>
+            <div class="item ">
+                <a class ="link" href = "pp.pdf">
+                    <img src = "pp.jpg"/>
+                </a> 
+            </div>
+            <h3 class="title">IDS 6145: Simulation Techniques</h3>
+            <span class = "subtitle">Group project PowerPoint that compares the efficiency of robots and humans operating independently and together in server roles in restaurants</span>
+            <div class="item ">
+                <a class ="link" href = "st.pdf">
+                    <img src = "st.jpg"/>
+                </a> 
+            </div>
+            <h3 class="title">IDS 6262: Research Design</h3>
+            <span class = "subtitle">Research paper on the possibility of virtual reality use with humans in isolated, confined, and extreme environments</span>
+            <div class="item ">
+                <a class ="link" href = "rp2.pdf">
+                    <img src = "rp2.jpg"/>
+                </a> 
+            </div>
+</section>
 
 
 <footer class="footer-main">
